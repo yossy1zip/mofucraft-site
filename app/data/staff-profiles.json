@@ -1,0 +1,26 @@
+{
+  "ExampleAdmin": {
+    "specialty": "運営、調整",
+    "ownerComment": "（見本）",
+    "personalComment": null,
+    "activityPeriods": [
+      {
+        "start": "2014-01-01",
+        "end": null,
+        "role": "管理者"
+      }
+    ]
+  },
+  "ExampleBuilder": {
+    "specialty": "建築",
+    "ownerComment": "（見本）",
+    "personalComment": null,
+    "activityPeriods": [
+      {
+        "start": "2020-01-01",
+        "end": "2022-12-31",
+        "role": "スタッフ"
+      }
+    ]
+  }
+}

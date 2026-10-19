@@ -1,0 +1,14 @@
+node_modules
+
+/.cache
+/build
+.claude/settings.local.json
+/仮置き
+.DS_Store
+**/.DS_Store
+*.mjs
+
+# 環境変数ファイル
+.env
+.env.local
+.env.*.local

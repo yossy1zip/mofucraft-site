@@ -1,0 +1,14 @@
+services:
+  mofu-remix:
+    build: .
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    environment:
+      NODE_ENV: production
+      DB_HOST: machine_db
+    extra_hosts:
+      - "machine_db:host-gateway"
+      - "host.docker.internal:host-gateway"
+    command: npm run start
